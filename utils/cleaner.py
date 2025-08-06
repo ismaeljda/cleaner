@@ -560,8 +560,8 @@ class LinuxTrollApp:
 
 # Lancement du programme
 if __name__ == "__main__":
-    print(f"🐧 Linux Troll Popup starting with {QT_AVAILABLE}...")
-    print("🛑 Close terminal or press Ctrl+C to stop")
+    # print(f"🐧 Linux Troll Popup starting with {QT_AVAILABLE}...")
+    # print("🛑 Close terminal or press Ctrl+C to stop")
     
     try:
         app = LinuxTrollApp()
