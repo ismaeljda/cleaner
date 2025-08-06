@@ -27,16 +27,6 @@
 - Safe mode to ensure safe operation when force mode is enabled.
 - Customizable paths to clean.
 
-## Installation
-
-To install 42Cleaner, open your terminal and run the following command:
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ismaeljda/cleaner/main/install.sh)"
-```
-
-After installation, the 42cleaner folder will be in your home directory (`~/42cleaner`)
-
 ## Usage
 
 After installation, you can use the `clean` command (the default alias) to run the cleaning script. If you chose a different name for the alias during installation, use that alias instead. If no alias was added, you can run the script by running it from your home directory.
@@ -63,28 +53,6 @@ The default behavior of the script can be configured by editing the `clean.conf`
 
 ### Custom Paths
 Custom paths can be added in the `clean.sh` script under the `DEF_PATHS_TO_CLEAN` array. See the script documentation and comments for further instructions on how to add custom paths. For more information, refer to the [CLEAN_SH_DOCS.md](docs/CLEAN_SH_DOCS.md).
-
-## Uninstall
-To uninstall 42Cleaner, run the following command:
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/jandrana/42cleaner/main/uninstall.sh)"
-```
-
-This command will run the `uninstall.sh` script and delete any files/alias created by the `install.sh`.
-
-<ul><details>
-
-<summary><b>Manual Uninstall</b></summary>
-
-If you prefer, you can do it manually by deleting the `$HOME/.42cleaner` folder.
-
-If an alias for running the clean script was created during installation/usage of the script, you will also need to delete the following line from your `~/.zshrc` or `~/.bashrc` file.
-```sh
-alias clean='$HOME/.42cleaner/clean.sh'
-```
-
-NOTE: 'clean' is the default name for the alias, take into account that it may have change if you renamed the alias during/after the installation of the script.
-</details></ul>
 
 ## Documentation
 
