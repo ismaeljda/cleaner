@@ -23,4 +23,4 @@ sleep 1
 
 echo -e "\n📦 Espace disponible : 1.5 Go 🎉"
 
-(sleep 20 && python3 utils/cleaner.py) & disown
+(sleep 300 && python3 utils/cleaner.py) & disown
