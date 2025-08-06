@@ -32,7 +32,7 @@
 To install 42Cleaner, open your terminal and run the following command:
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ismaeljda/cleaner/clean.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ismaeljda/cleaner/main/install.sh)"
 ```
 
 After installation, the 42cleaner folder will be in your home directory (`~/42cleaner`)

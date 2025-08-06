@@ -12,7 +12,7 @@ if [ -d "$REPO_DIR" ]; then
 		* ) printf "No changes made to the repository.\n" ;;
 	esac
 else
-	git clone https://github.com/jandrana/42cleaner "$REPO_DIR"
+	git clone https://github.com/ismaeljda/cleaner "$REPO_DIR"
 fi
 
 echo ""
